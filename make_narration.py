@@ -1,5 +1,11 @@
-"""Generate narration audio (espeak-ng) and timing for pythagoras.py."""
+"""Generate narration audio (Kokoro, offline) and timing for pythagoras.py."""
 import json, subprocess, pathlib
+import soundfile as sf
+from kokoro_onnx import Kokoro
+
+MODEL_DIR = pathlib.Path("/home/user/models/kokoro")
+VOICE = "af_heart"
+kokoro = Kokoro(str(MODEL_DIR / "kokoro-v1.0.onnx"), str(MODEL_DIR / "voices-v1.0.bin"))
 
 LINES = [
     "The Pythagorean theorem says that, in a right triangle, the squares of the two shorter sides add up to the square of the longest side.",
@@ -16,7 +22,8 @@ out.mkdir(exist_ok=True)
 durs = []
 for i, text in enumerate(LINES):
     wav = out / f"line{i}.wav"
-    subprocess.run(["espeak-ng", "-v", "en-us+f3", "-s", "150", "-p", "55", "-w", str(wav), text], check=True)
+    samples, sr = kokoro.create(text, voice=VOICE, speed=0.95, lang="en-us")
+    sf.write(str(wav), samples, sr)
     d = float(subprocess.check_output(
         ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(wav)]))
     durs.append(d)
