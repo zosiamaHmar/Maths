@@ -1,0 +1,63 @@
+1
+00:00:00,000 --> 00:00:03,535
+The Pythagorean theorem says that, in a right triangle,
+
+2
+00:00:03,535 --> 00:00:08,548
+the squares of the two shorter sides add up to the square of the longest side.
+
+3
+00:00:09,166 --> 00:00:13,727
+Here is a right triangle. The two shorter sides, a and b,
+
+4
+00:00:13,727 --> 00:00:18,527
+are called the legs. The longest side, c, is the hypotenuse.
+
+5
+00:00:20,133 --> 00:00:23,289
+To prove it, take four copies of this triangle,
+
+6
+00:00:23,289 --> 00:00:27,185
+and place them inside a big square whose side is a plus b.
+
+7
+00:00:27,800 --> 00:00:31,216
+The triangles leave a tilted square in the middle,
+
+8
+00:00:31,216 --> 00:00:35,315
+with side c. So the big square's area is the four triangles,
+
+9
+00:00:35,315 --> 00:00:36,340
+plus c squared.
+
+10
+00:00:36,966 --> 00:00:39,746
+Now slide the triangles to new spots.
+
+11
+00:00:39,746 --> 00:00:42,075
+The total area does not change.
+
+12
+00:00:42,699 --> 00:00:46,144
+This time, the leftover space is two squares:
+
+13
+00:00:46,144 --> 00:00:48,976
+one with side a, and one with side b.
+
+14
+00:00:49,599 --> 00:00:52,530
+Same big square, same four triangles.
+
+15
+00:00:52,530 --> 00:00:56,411
+So c squared must equal a squared plus b squared.
+
+16
+00:00:56,411 --> 00:00:58,945
+That is the Pythagorean theorem.

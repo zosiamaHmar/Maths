@@ -1,0 +1,20 @@
+{
+ "lines": [
+  "The Pythagorean theorem says that, in a right triangle, the squares of the two shorter sides add up to the square of the longest side.",
+  "Here is a right triangle. The two shorter sides, a and b, are called the legs. The longest side, c, is the hypotenuse.",
+  "To prove it, take four copies of this triangle, and place them inside a big square whose side is a plus b.",
+  "The triangles leave a tilted square in the middle, with side c. So the big square's area is the four triangles, plus c squared.",
+  "Now slide the triangles to new spots. The total area does not change.",
+  "This time, the leftover space is two squares: one with side a, and one with side b.",
+  "Same big square, same four triangles. So c squared must equal a squared plus b squared. That is the Pythagorean theorem."
+ ],
+ "durations": [
+  8.54898,
+  9.360952,
+  7.051882,
+  8.540862,
+  5.108707,
+  6.276281,
+  9.34576
+ ]
+}

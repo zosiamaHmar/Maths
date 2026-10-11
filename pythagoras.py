@@ -1,8 +1,22 @@
 from manimlib import *
+import json
+
+
+NARRATION = json.load(open("narration/narration.json"))
+PAD = 0.6  # silence after each narrated line
 
 
 class PythagoreanTheorem(Scene):
+    def cue(self, k):
+        self.cues[k] = self.time
+
+    def hold(self, k):
+        """Wait until line k has finished speaking."""
+        self.wait(max(0.01, self.cues[k] + NARRATION["durations"][k] + PAD - self.time))
+
     def construct(self):
+        self.cues = {}
+        self.cue(0)
         # ---------- Intro ----------
         title = Text("The Pythagorean Theorem", font_size=56)
         title.to_edge(UP)
@@ -10,7 +24,7 @@ class PythagoreanTheorem(Scene):
         formula = Tex("a^2 + b^2 = c^2", font_size=72)
         formula.next_to(title, DOWN, buff=0.8)
         self.play(FadeIn(formula, shift=UP))
-        self.wait()
+        self.hold(0)
 
         # ---------- Right triangle ----------
         a, b = 1.8, 2.4
@@ -25,17 +39,15 @@ class PythagoreanTheorem(Scene):
         lb = Tex("b", color=GREEN).next_to(tri.get_vertices()[0] * 0.5 + tri.get_vertices()[1] * 0.5, DOWN)
         lc = Tex("c", color=RED).next_to(tri.get_vertices()[1] * 0.5 + tri.get_vertices()[2] * 0.5, UR, buff=0.1)
         box = Square(side_length=0.3, color=WHITE).move_to(tri.get_vertices()[0] + np.array([0.15, 0.15, 0]))
+        self.cue(1)
         self.play(
             FadeOut(formula),
             ShowCreation(tri),
             FadeIn(box),
         )
         self.play(Write(la), Write(lb), Write(lc))
-        note = Text("In a right triangle, the legs are a and b,\nand the hypotenuse is c.", font_size=30)
-        note.to_edge(DOWN)
-        self.play(FadeIn(note))
-        self.wait(2)
-        self.play(FadeOut(VGroup(tri, la, lb, lc, box, note)))
+        self.hold(1)
+        self.play(FadeOut(VGroup(tri, la, lb, lc, box)))
 
         # ---------- Proof by rearrangement ----------
         s = a + b
@@ -46,9 +58,8 @@ class PythagoreanTheorem(Scene):
 
         outer = Square(side_length=s, color=WHITE, stroke_width=3)
         outer.move_to(P(s / 2, s / 2))
-        caption = Text("Take four copies of the triangle and a big square of side a + b.", font_size=28)
-        caption.to_edge(DOWN)
-        self.play(ShowCreation(outer), FadeIn(caption))
+        self.cue(2)
+        self.play(ShowCreation(outer))
 
         # Arrangement 1: four triangles in the corners, tilted c-square left over
         p1, p2, p3, p4 = P(a, 0), P(s, a), P(s - a, s), P(0, s - a)
@@ -63,14 +74,16 @@ class PythagoreanTheorem(Scene):
             for v in arr1
         ])
         self.play(LaggedStartMap(FadeIn, tris, lag_ratio=0.4))
+        self.hold(2)
 
         csq = Polygon(p1, p2, p3, p4, color=RED, fill_color=RED, fill_opacity=0.5)
         clab = Tex("c^2", color=RED, font_size=60).move_to(csq)
+        self.cue(3)
         self.play(FadeIn(csq), Write(clab))
         eq1 = Tex("(a+b)^2 - 4 \\cdot \\tfrac{1}{2}ab = c^2", font_size=40)
         eq1.move_to(np.array([2.6, 1.6, 0]))
-        self.play(FadeOut(caption), Write(eq1))
-        self.wait(2)
+        self.play(Write(eq1))
+        self.hold(3)
 
         # Arrangement 2: same triangles, two squares left over
         arr2 = [
@@ -83,13 +96,14 @@ class PythagoreanTheorem(Scene):
             Polygon(*v, color=YELLOW, fill_color=YELLOW, fill_opacity=0.4, stroke_width=2)
             for v in arr2
         ])
-        move_note = Text("Slide the triangles. Same area, new picture.", font_size=28).to_edge(DOWN)
-        self.play(FadeIn(move_note))
+        self.cue(4)
         self.play(
             FadeOut(csq), FadeOut(clab),
             *[Transform(t, nt) for t, nt in zip(tris, new_tris)],
             run_time=3,
         )
+        self.hold(4)
+        self.cue(5)
 
         asq = Square(side_length=a, color=BLUE, fill_color=BLUE, fill_opacity=0.5, stroke_width=2)
         asq.move_to(P(a / 2, a / 2))
@@ -101,12 +115,13 @@ class PythagoreanTheorem(Scene):
         eq2 = Tex("(a+b)^2 - 4 \\cdot \\tfrac{1}{2}ab = a^2 + b^2", font_size=40)
         eq2.next_to(eq1, DOWN, buff=0.6)
         self.play(Write(eq2))
-        self.wait(2)
+        self.hold(5)
 
         # ---------- Conclusion ----------
-        self.play(FadeOut(move_note))
+        self.cue(6)
         final = Tex("a^2 + b^2 = c^2", font_size=84, color=YELLOW)
         final.move_to(np.array([2.6, -1.4, 0]))
         self.play(Write(final))
         self.play(Indicate(final, scale_factor=1.2))
-        self.wait(3)
+        self.hold(6)
+        json.dump(self.cues, open('narration/cues.json', 'w'))
