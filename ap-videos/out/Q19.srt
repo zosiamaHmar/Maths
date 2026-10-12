@@ -1,0 +1,123 @@
+1
+00:00:01,500 --> 00:00:10,266
+Can you add this AP without adding every term? Stay till the end!
+
+2
+00:00:10,266 --> 00:00:13,333
+Know first: the formulas we need
+
+3
+00:00:13,333 --> 00:00:23,333
+Sum of n terms, when we know a and d
+
+4
+00:00:23,333 --> 00:00:33,100
+If the sum of m terms of an AP is the same as the sum of its n terms, show that the sum of its (m + n) terms is zero.
+
+5
+00:00:33,100 --> 00:00:36,200
+Write down what is given: the two sums are equal
+
+6
+00:00:36,200 --> 00:00:37,899
+Write down what is given: the two sums are equal
+
+7
+00:00:37,899 --> 00:00:40,199
+Use the sum formula on both sides
+
+8
+00:00:40,199 --> 00:00:47,833
+Use the sum formula on both sides
+
+9
+00:00:47,833 --> 00:00:49,866
+Multiply both sides by 2
+
+10
+00:00:49,866 --> 00:00:56,166
+Multiply both sides by 2
+
+11
+00:00:56,166 --> 00:00:57,533
+Open the brackets
+
+12
+00:00:57,533 --> 00:01:04,833
+Open the brackets
+
+13
+00:01:04,833 --> 00:01:11,599
+Open the brackets
+
+14
+00:01:11,599 --> 00:01:13,699
+Collect everything on the left side
+
+15
+00:01:13,699 --> 00:01:20,666
+Collect everything on the left side
+
+16
+00:01:20,666 --> 00:01:29,166
+Factor: 2a times (m − n), and m² − n² is (m − n)(m + n)
+
+17
+00:01:29,166 --> 00:01:36,366
+Factor: 2a times (m − n), and m² − n² is (m − n)(m + n)
+
+18
+00:01:36,366 --> 00:01:44,099
+Factor: 2a times (m − n), and m² − n² is (m − n)(m + n)
+
+19
+00:01:44,099 --> 00:01:47,866
+Take (m − n) out as a common factor
+
+20
+00:01:47,866 --> 00:01:52,899
+Take (m − n) out as a common factor
+
+21
+00:01:52,899 --> 00:01:59,099
+m and n are different, so m − n is not zero. So the other factor must be zero
+
+22
+00:01:59,099 --> 00:02:04,299
+m and n are different, so m − n is not zero. So the other factor must be zero
+
+23
+00:02:04,299 --> 00:02:07,566
+Now write the sum of (m + n) terms
+
+24
+00:02:07,566 --> 00:02:14,166
+Now write the sum of (m + n) terms
+
+25
+00:02:14,166 --> 00:02:16,866
+The bracket is zero by (★)
+
+26
+00:02:16,866 --> 00:02:19,866
+The bracket is zero by (★)
+
+27
+00:02:19,866 --> 00:02:21,199
+The bracket is zero by (★)
+
+28
+00:02:21,199 --> 00:02:25,033
+Answer: Sₘ₊ₙ = 0   — shown ✓
+
+29
+00:02:25,033 --> 00:02:27,233
+Let's check our answer
+
+30
+00:02:27,233 --> 00:02:40,399
+Quick check with the AP 3, 2, 1, 0, −1, −2, …: S₂ = 5 and S₃ = 6 are not equal, but S₃ = S₄ = 6 is
+
+31
+00:02:40,399 --> 00:02:50,566
+Quick check with the AP 3, 2, 1, 0, −1, −2, …: S₂ = 5 and S₃ = 6 are not equal, but S₃ = S₄ = 6 is

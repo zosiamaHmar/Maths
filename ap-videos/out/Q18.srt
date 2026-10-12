@@ -1,0 +1,111 @@
+1
+00:00:01,500 --> 00:00:10,266
+Can you add this AP without adding every term? Stay till the end!
+
+2
+00:00:10,266 --> 00:00:13,333
+Know first: the formulas we need
+
+3
+00:00:13,333 --> 00:00:23,333
+Sum of n terms, when we know a and d
+
+4
+00:00:23,333 --> 00:00:34,200
+The sums of n, 2n and 3n terms of an AP are S₁, S₂ and S₃. Prove that S₃ = 3(S₂ − S₁).
+
+5
+00:00:34,200 --> 00:00:39,200
+Write each sum with the formula Sₙ equals n over 2 times the bracket
+
+6
+00:00:39,200 --> 00:00:43,733
+Write each sum with the formula Sₙ equals n over 2 times the bracket
+
+7
+00:00:43,733 --> 00:00:45,899
+S one is the sum of n terms
+
+8
+00:00:45,899 --> 00:00:50,499
+S one is the sum of n terms
+
+9
+00:00:50,499 --> 00:00:54,599
+S two is the sum of 2n terms. Replace n by 2n
+
+10
+00:00:54,599 --> 00:00:59,699
+S two is the sum of 2n terms. Replace n by 2n
+
+11
+00:00:59,699 --> 00:01:03,166
+S two is the sum of 2n terms. Replace n by 2n
+
+12
+00:01:03,166 --> 00:01:07,433
+S three is the sum of 3n terms. Replace n by 3n
+
+13
+00:01:07,433 --> 00:01:12,733
+S three is the sum of 3n terms. Replace n by 3n
+
+14
+00:01:12,733 --> 00:01:18,066
+Now work out S two minus S one. Take n over 2 out as a common factor
+
+15
+00:01:18,066 --> 00:01:27,799
+Now work out S two minus S one. Take n over 2 out as a common factor
+
+16
+00:01:27,799 --> 00:01:29,633
+Open the brackets inside
+
+17
+00:01:29,633 --> 00:01:37,433
+Open the brackets inside
+
+18
+00:01:37,433 --> 00:01:41,866
+Combine the a terms and the d terms
+
+19
+00:01:41,866 --> 00:01:47,533
+Combine the a terms and the d terms
+
+20
+00:01:47,533 --> 00:01:51,899
+Combine the a terms and the d terms
+
+21
+00:01:51,899 --> 00:01:53,833
+Multiply by 3
+
+22
+00:01:53,833 --> 00:02:00,933
+Multiply by 3
+
+23
+00:02:00,933 --> 00:02:02,766
+This is exactly S three
+
+24
+00:02:02,766 --> 00:02:06,166
+This is exactly S three
+
+25
+00:02:06,166 --> 00:02:11,566
+Answer: S₃ = 3(S₂ − S₁)   — proved ✓
+
+26
+00:02:11,566 --> 00:02:13,766
+Let's check our answer
+
+27
+00:02:13,766 --> 00:02:24,866
+Quick check with a = 1, d = 1, n = 1: S₁ = 1, S₂ = 3, S₃ = 6
+
+28
+00:02:24,866 --> 00:02:29,166
+Quick check with a = 1, d = 1, n = 1: S₁ = 1, S₂ = 3, S₃ = 6
