@@ -1,0 +1,103 @@
+1
+00:00:01,500 --> 00:00:10,266
+Can you add this AP without adding every term? Stay till the end!
+
+2
+00:00:10,266 --> 00:00:13,333
+Know first: the formulas we need
+
+3
+00:00:13,333 --> 00:00:22,933
+Sum of n terms, when we know a and d
+
+4
+00:00:22,933 --> 00:00:35,166
+The n th term is a plus n minus 1 times d
+
+5
+00:00:35,166 --> 00:00:44,199
+The sum of the first 14 terms of an AP is 1505 and its first term is 10. Find its 25th term.
+
+6
+00:00:44,199 --> 00:00:45,733
+Write down what we know
+
+7
+00:00:45,733 --> 00:00:53,799
+Write down what we know
+
+8
+00:00:53,799 --> 00:00:55,499
+Use the sum formula
+
+9
+00:00:55,499 --> 00:01:02,633
+Use the sum formula
+
+10
+00:01:02,633 --> 00:01:07,166
+Use the sum formula
+
+11
+00:01:07,166 --> 00:01:09,299
+Divide both sides by 7
+
+12
+00:01:09,299 --> 00:01:13,933
+Divide both sides by 7
+
+13
+00:01:13,933 --> 00:01:17,233
+Divide both sides by 7
+
+14
+00:01:17,233 --> 00:01:19,333
+Subtract 20 from both sides
+
+15
+00:01:19,333 --> 00:01:22,233
+Subtract 20 from both sides
+
+16
+00:01:22,233 --> 00:01:24,133
+Divide by 13
+
+17
+00:01:24,133 --> 00:01:28,533
+Divide by 13
+
+18
+00:01:28,533 --> 00:01:30,499
+Now find the 25th term
+
+19
+00:01:30,499 --> 00:01:36,733
+Now find the 25th term
+
+20
+00:01:36,733 --> 00:01:39,566
+Now find the 25th term
+
+21
+00:01:39,566 --> 00:01:42,066
+Now find the 25th term
+
+22
+00:01:42,066 --> 00:01:44,799
+Now find the 25th term
+
+23
+00:01:44,799 --> 00:01:48,866
+Answer: a₂₅ = 370
+
+24
+00:01:48,866 --> 00:01:51,066
+Let's check our answer
+
+25
+00:01:51,066 --> 00:01:54,166
+Quick check: S₁₄ with d = 15
+
+26
+00:01:54,166 --> 00:02:09,366
+Quick check: S₁₄ with d = 15
