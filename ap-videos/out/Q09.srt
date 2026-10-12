@@ -1,0 +1,91 @@
+1
+00:00:01,500 --> 00:00:10,266
+Can you add this AP without adding every term? Stay till the end!
+
+2
+00:00:10,266 --> 00:00:13,333
+Know first: the formulas we need
+
+3
+00:00:13,333 --> 00:00:23,033
+The n th term is the sum of n terms minus the sum of n minus 1 terms
+
+4
+00:00:23,033 --> 00:00:30,966
+The sum of n terms of an AP is  {5n²|2} + {3n|2}.  Find its 20th term.
+
+5
+00:00:30,966 --> 00:00:34,866
+We use: the 20th term is S₂₀ minus S₁₉
+
+6
+00:00:34,866 --> 00:00:37,800
+We use: the 20th term is S₂₀ minus S₁₉
+
+7
+00:00:37,800 --> 00:00:40,833
+First find S₂₀. Put n = 20
+
+8
+00:00:40,833 --> 00:00:47,766
+First find S₂₀. Put n = 20
+
+9
+00:00:47,766 --> 00:00:52,566
+First find S₂₀. Put n = 20
+
+10
+00:00:52,566 --> 00:00:55,466
+First find S₂₀. Put n = 20
+
+11
+00:00:55,466 --> 00:00:59,333
+First find S₂₀. Put n = 20
+
+12
+00:00:59,333 --> 00:01:02,899
+Now find S₁₉. Put n = 19
+
+13
+00:01:02,899 --> 00:01:10,266
+Now find S₁₉. Put n = 19
+
+14
+00:01:10,266 --> 00:01:16,233
+Now find S₁₉. Put n = 19
+
+15
+00:01:16,233 --> 00:01:21,299
+Now find S₁₉. Put n = 19
+
+16
+00:01:21,299 --> 00:01:26,599
+Now find S₁₉. Put n = 19
+
+17
+00:01:26,599 --> 00:01:27,866
+Subtract
+
+18
+00:01:27,866 --> 00:01:32,266
+Subtract
+
+19
+00:01:32,266 --> 00:01:34,266
+Subtract
+
+20
+00:01:34,266 --> 00:01:37,566
+Answer: a₂₀ = 99
+
+21
+00:01:37,566 --> 00:01:39,766
+Let's check our answer
+
+22
+00:01:39,766 --> 00:01:44,466
+Quick check using the general formula aₙ = 5n − 1
+
+23
+00:01:44,466 --> 00:01:49,299
+Quick check using the general formula aₙ = 5n − 1
