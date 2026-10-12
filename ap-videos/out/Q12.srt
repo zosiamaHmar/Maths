@@ -1,0 +1,103 @@
+1
+00:00:01,500 --> 00:00:10,266
+Can you add this AP without adding every term? Stay till the end!
+
+2
+00:00:10,266 --> 00:00:13,333
+Know first: the formulas we need
+
+3
+00:00:13,333 --> 00:00:23,033
+The n th term is the sum of n terms minus the sum of n minus 1 terms
+
+4
+00:00:23,033 --> 00:00:37,333
+If the sum of the first n terms of an AP is Sₙ = 3n² − n, find its (i) nth term, (ii) first term and (iii) common difference.
+
+5
+00:00:37,333 --> 00:00:43,833
+(i) Use aₙ = Sₙ − Sₙ₋₁. First write Sₙ₋₁
+
+6
+00:00:43,833 --> 00:00:49,433
+(i) Use aₙ = Sₙ − Sₙ₋₁. First write Sₙ₋₁
+
+7
+00:00:49,433 --> 00:00:52,299
+Expand (n − 1) squared
+
+8
+00:00:52,299 --> 00:00:57,366
+Expand (n − 1) squared
+
+9
+00:00:57,366 --> 00:01:01,766
+Expand (n − 1) squared
+
+10
+00:01:01,766 --> 00:01:05,033
+Expand (n − 1) squared
+
+11
+00:01:05,033 --> 00:01:06,299
+Subtract
+
+12
+00:01:06,299 --> 00:01:12,066
+Subtract
+
+13
+00:01:12,066 --> 00:01:17,166
+Subtract
+
+14
+00:01:17,166 --> 00:01:20,499
+3n² cancels. Combine the n terms
+
+15
+00:01:20,499 --> 00:01:22,899
+3n² cancels. Combine the n terms
+
+16
+00:01:22,899 --> 00:01:26,499
+(ii) First term: put n = 1
+
+17
+00:01:26,499 --> 00:01:28,999
+(ii) First term: put n = 1
+
+18
+00:01:28,999 --> 00:01:30,466
+(ii) First term: put n = 1
+
+19
+00:01:30,466 --> 00:01:34,299
+(iii) Common difference: find a₂ and subtract
+
+20
+00:01:34,299 --> 00:01:37,533
+(iii) Common difference: find a₂ and subtract
+
+21
+00:01:37,533 --> 00:01:41,066
+(iii) Common difference: find a₂ and subtract
+
+22
+00:01:41,066 --> 00:01:42,533
+(iii) Common difference: find a₂ and subtract
+
+23
+00:01:42,533 --> 00:01:50,499
+Answer: aₙ = 6n − 4,   a = 2,   d = 6
+
+24
+00:01:50,499 --> 00:01:52,699
+Let's check our answer
+
+25
+00:01:52,699 --> 00:02:00,799
+Quick check: S₁ = 3 − 1 = 2, and S₂ = 12 − 2 = 10 = 2 + 8
+
+26
+00:02:00,799 --> 00:02:02,966
+Quick check: S₁ = 3 − 1 = 2, and S₂ = 12 − 2 = 10 = 2 + 8
