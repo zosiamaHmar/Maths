@@ -1,0 +1,115 @@
+1
+00:00:01,500 --> 00:00:10,266
+Can you add this AP without adding every term? Stay till the end!
+
+2
+00:00:10,266 --> 00:00:13,333
+Know first: the formulas we need
+
+3
+00:00:13,333 --> 00:00:21,233
+Sum of n terms, when we know the last term l
+
+4
+00:00:21,233 --> 00:00:33,466
+The n th term is a plus n minus 1 times d
+
+5
+00:00:33,466 --> 00:00:43,366
+In an AP the first term is 22, the nth term is −11 and the sum to n terms is 66. Find n and d.
+
+6
+00:00:43,366 --> 00:00:44,899
+Write down what we know
+
+7
+00:00:44,899 --> 00:00:53,166
+Write down what we know
+
+8
+00:00:53,166 --> 00:00:55,199
+Use the second sum formula
+
+9
+00:00:55,199 --> 00:00:59,733
+Use the second sum formula
+
+10
+00:00:59,733 --> 00:01:04,199
+Use the second sum formula
+
+11
+00:01:04,199 --> 00:01:05,899
+Add inside the bracket
+
+12
+00:01:05,899 --> 00:01:09,233
+Add inside the bracket
+
+13
+00:01:09,233 --> 00:01:11,266
+Multiply both sides by 2
+
+14
+00:01:11,266 --> 00:01:14,099
+Multiply both sides by 2
+
+15
+00:01:14,099 --> 00:01:16,566
+Divide both sides by 11
+
+16
+00:01:16,566 --> 00:01:20,499
+Divide both sides by 11
+
+17
+00:01:20,499 --> 00:01:23,799
+Now find d using the nth term formula
+
+18
+00:01:23,799 --> 00:01:29,033
+Now find d using the nth term formula
+
+19
+00:01:29,033 --> 00:01:33,333
+Now find d using the nth term formula
+
+20
+00:01:33,333 --> 00:01:36,566
+Now find d using the nth term formula
+
+21
+00:01:36,566 --> 00:01:38,833
+Subtract 22 from both sides
+
+22
+00:01:38,833 --> 00:01:42,266
+Subtract 22 from both sides
+
+23
+00:01:42,266 --> 00:01:44,933
+Subtract 22 from both sides
+
+24
+00:01:44,933 --> 00:01:46,499
+Divide by 11
+
+25
+00:01:46,499 --> 00:01:48,233
+Divide by 11
+
+26
+00:01:48,233 --> 00:01:52,399
+Answer: n = 12,   d = −3
+
+27
+00:01:52,399 --> 00:01:54,599
+Let's check our answer
+
+28
+00:01:54,599 --> 00:02:01,599
+Quick check: the 12th term is 22 + 11(−3) = −11, and the sum is
+
+29
+00:02:01,599 --> 00:02:08,866
+Quick check: the 12th term is 22 + 11(−3) = −11, and the sum is
