@@ -17,7 +17,7 @@ for d in (WORK, OUT, WORK / "audio"):
 SUBMAP = {c: str(i) for i, c in enumerate("₀₁₂₃₄₅₆₇₈₉")}
 SUBMAP.update({"ₙ": "n", "ₘ": "m", "ₚ": "p", "₊": " plus ", "₋": " minus "})
 SUPS = {"²": " squared ", "³": " cubed "}
-LETTER_A = re.compile(r"\ba\b(?=\s*(?:$|[=+−×,.)\]²]|and\b|to\b|from\b|is\b|on\b|cancels|alone|terms|minus|plus|times))")
+LETTER_A = re.compile(r"\ba\b(?=\s*(?:$|[=+−×,.)\]²]|and\b|to\b|from\b|is\b|on\b|cancels|alone|terms|minus|plus|times|equals|over|cancels))")
 
 
 def speak(s, math=True):
@@ -36,7 +36,7 @@ def speak(s, math=True):
     s = s.replace("…", " and so on ").replace(":", " to ")
     s = re.sub(r"[()\[\]]", " ", s)
     s = re.sub(r"\bAPs?\b", lambda m: "A P" + ("s" if m.group(0).endswith("s") else ""), s)
-    s = LETTER_A.sub("[[eI]]", s)
+    s = LETTER_A.sub("[a](/eɪ/)", s)
     s = re.sub(r"(?<=\d)\s*\.\s*\.\s*", " ", s)
     return re.sub(r"\s+", " ", s).strip(" ,")
 
@@ -46,12 +46,25 @@ def say_text(s):
     return speak(s)
 
 
+_K = None
+
+
+def kokoro():
+    global _K
+    if _K is None:
+        from kokoro_onnx import Kokoro
+        _K = Kokoro(str(WORK / "kokoro" / "kokoro-v1.0.int8.onnx"), str(WORK / "kokoro" / "voices-v1.0.bin"))
+    return _K
+
+
 def tts(text):
-    h = hashlib.md5(text.encode()).hexdigest()[:16]
+    """Offline Kokoro-82M voice (af_heart)."""
+    import soundfile as sf
+    h = hashlib.md5(("k1" + text).encode()).hexdigest()[:16]
     p = WORK / "audio" / f"{h}.wav"
     if not p.exists():
-        subprocess.run(["espeak-ng", "-v", "en-us+f3", "-s", "150", "-p", "55", "-w", str(p), text],
-                       check=True, stderr=subprocess.DEVNULL)
+        samples, sr = kokoro().create(text, voice="af_heart", speed=0.95, lang="en-us")
+        sf.write(str(p), samples, sr)
     with wave.open(str(p)) as w:
         dur = w.getnframes() / w.getframerate()
     return str(p), dur
