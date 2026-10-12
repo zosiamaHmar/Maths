@@ -1,0 +1,91 @@
+1
+00:00:01,500 --> 00:00:10,266
+Can you add this AP without adding every term? Stay till the end!
+
+2
+00:00:10,266 --> 00:00:13,333
+Know first: the formulas we need
+
+3
+00:00:13,333 --> 00:00:22,633
+The n th term is the sum of n terms minus the sum of n minus 1 terms
+
+4
+00:00:22,633 --> 00:00:28,433
+Common difference is any term minus the one before it
+
+5
+00:00:28,433 --> 00:00:35,066
+If the sum of the first p terms of an AP is ap² + bp, find the common difference.
+
+6
+00:00:35,066 --> 00:00:37,633
+Find the first term: put p = 1
+
+7
+00:00:37,633 --> 00:00:47,566
+Find the first term: put p = 1
+
+8
+00:00:47,566 --> 00:00:51,433
+Find the first term: put p = 1
+
+9
+00:00:51,433 --> 00:00:54,433
+Find the sum of 2 terms: put p = 2
+
+10
+00:00:54,433 --> 00:01:02,699
+Find the sum of 2 terms: put p = 2
+
+11
+00:01:02,699 --> 00:01:05,299
+The second term is S two minus S one
+
+12
+00:01:05,299 --> 00:01:11,499
+The second term is S two minus S one
+
+13
+00:01:11,499 --> 00:01:16,566
+The second term is S two minus S one
+
+14
+00:01:16,566 --> 00:01:18,466
+The second term is S two minus S one
+
+15
+00:01:18,466 --> 00:01:22,033
+Common difference is the second term minus the first term
+
+16
+00:01:22,033 --> 00:01:27,333
+Common difference is the second term minus the first term
+
+17
+00:01:27,333 --> 00:01:32,333
+Common difference is the second term minus the first term
+
+18
+00:01:32,333 --> 00:01:37,166
+b cancels, and 3a minus a is 2a
+
+19
+00:01:37,166 --> 00:01:38,666
+b cancels, and 3a minus a is 2a
+
+20
+00:01:38,666 --> 00:01:41,366
+Answer: d = 2a
+
+21
+00:01:41,366 --> 00:01:43,566
+Let's check our answer
+
+22
+00:01:43,566 --> 00:01:45,833
+Quick check with the general formula
+
+23
+00:01:45,833 --> 00:01:57,066
+Quick check with the general formula
