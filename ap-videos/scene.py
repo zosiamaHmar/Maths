@@ -225,7 +225,7 @@ class APVideo(Scene):
         self.beat_audio(ev)
         if ev.get("sfx"):
             self.add_sound(ev["sfx"])
-        row, rh = build_row(ev["math"], fs=46, color=GOLD)
+        row, rh = build_row(ev["math"].lstrip("!"), fs=46, color=GOLD)
         lab = Text("Answer", font_size=30, color=TEAL)
         grp = VGroup(lab, row).arrange(DOWN, buff=0.3)
         box = RoundedRectangle(corner_radius=0.2, width=max(grp.width + 1, 5), height=grp.height + 0.7,

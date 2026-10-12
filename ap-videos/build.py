@@ -175,9 +175,10 @@ def build(q):
     jp.write_text(json.dumps(data, ensure_ascii=False))
     (OUT / f"{name}_solutions.md").write_text(solutions_md(pb))
     env = dict(os.environ, AP_JSON=str(jp))
-    raw = WORK / "media" / "videos" / "scene" / "720p30" / f"{name}_raw.mp4"
+    mdir = WORK / "media" / name
+    raw = mdir / "videos" / "scene" / "720p30" / f"{name}_raw.mp4"
     subprocess.run([PY, "-m", "manim", "render", "-qm", "--fps", "30", "-r", "1280,720", "--disable_caching",
-                    "--media_dir", str(WORK / "media"), "-o", f"{name}_raw", str(ROOT / "scene.py"), "APVideo"],
+                    "--media_dir", str(mdir), "-o", f"{name}_raw", str(ROOT / "scene.py"), "APVideo"],
                    check=True, env=env, stdout=subprocess.DEVNULL, stderr=open(WORK / f"{name}.log", "w"))
     # captions (.srt) from the recorded timeline
     times = json.loads(Path(str(jp) + ".times").read_text())
@@ -203,4 +204,6 @@ def build(q):
 if __name__ == "__main__":
     qs = [int(a) for a in sys.argv[1:]] or [p["q"] for p in content.PROBLEMS]
     for q in qs:
+        if list(OUT.glob(f"Q{q:02d}_*.mp4")):
+            continue
         build(q)
