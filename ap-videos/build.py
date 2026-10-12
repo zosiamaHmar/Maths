@@ -176,8 +176,8 @@ def build(q):
     (OUT / f"{name}_solutions.md").write_text(solutions_md(pb))
     env = dict(os.environ, AP_JSON=str(jp))
     mdir = WORK / "media" / name
-    raw = mdir / "videos" / "scene" / "720p30" / f"{name}_raw.mp4"
-    subprocess.run([PY, "-m", "manim", "render", "-qm", "--fps", "30", "-r", "1280,720", "--disable_caching",
+    raw = mdir / "videos" / "scene" / "720p60" / f"{name}_raw.mp4"
+    subprocess.run([PY, "-m", "manim", "render", "-qm", "--fps", "60", "-r", "1280,720", "--disable_caching",
                     "--media_dir", str(mdir), "-o", f"{name}_raw", str(ROOT / "scene.py"), "APVideo"],
                    check=True, env=env, stdout=subprocess.DEVNULL, stderr=open(WORK / f"{name}.log", "w"))
     # captions (.srt) from the recorded timeline
