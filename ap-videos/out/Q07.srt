@@ -1,0 +1,427 @@
+1
+00:00:01,500 --> 00:00:10,266
+Can you add this AP without adding every term? Stay till the end!
+
+2
+00:00:10,266 --> 00:00:13,333
+Know first: the formulas we need
+
+3
+00:00:13,333 --> 00:00:25,166
+The n th term is a plus n minus 1 times d
+
+4
+00:00:25,166 --> 00:00:33,466
+Sum of n terms, when we know the last term l
+
+5
+00:00:33,466 --> 00:00:40,366
+Find the sum of all natural numbers less than 100 which are divisible by 6.
+
+6
+00:00:40,366 --> 00:00:47,933
+Natural numbers below 100 divisible by 6 are 6, 12, 18, and so on, up to 96
+
+7
+00:00:47,933 --> 00:00:53,733
+Natural numbers below 100 divisible by 6 are 6, 12, 18, and so on, up to 96
+
+8
+00:00:53,733 --> 00:01:02,833
+Why 96? Because 6 × 16 = 96 and 6 × 17 = 102 is more than 100
+
+9
+00:01:02,833 --> 00:01:05,466
+Why 96? Because 6 × 16 = 96 and 6 × 17 = 102 is more than 100
+
+10
+00:01:05,466 --> 00:01:08,866
+Find the number of terms with the nth term formula
+
+11
+00:01:08,866 --> 00:01:14,099
+Find the number of terms with the nth term formula
+
+12
+00:01:14,099 --> 00:01:18,399
+Find the number of terms with the nth term formula
+
+13
+00:01:18,399 --> 00:01:22,133
+Find the number of terms with the nth term formula
+
+14
+00:01:22,133 --> 00:01:24,799
+Find the number of terms with the nth term formula
+
+15
+00:01:24,799 --> 00:01:28,799
+Find the number of terms with the nth term formula
+
+16
+00:01:28,799 --> 00:01:30,333
+Find the number of terms with the nth term formula
+
+17
+00:01:30,333 --> 00:01:32,366
+Use the second sum formula
+
+18
+00:01:32,366 --> 00:01:36,633
+Use the second sum formula
+
+19
+00:01:36,633 --> 00:01:38,799
+Use the second sum formula
+
+20
+00:01:38,799 --> 00:01:40,699
+Use the second sum formula
+
+21
+00:01:40,699 --> 00:01:44,233
+Answer: Sum = 816
+
+22
+00:01:44,233 --> 00:01:46,433
+Let's check our answer
+
+23
+00:01:46,433 --> 00:01:50,666
+Quick check: 6 × (1 + 2 + … + 16)
+
+24
+00:01:50,666 --> 00:01:58,833
+Quick check: 6 × (1 + 2 + … + 16)
+
+25
+00:01:59,133 --> 00:02:06,199
+Find the sum of all 3-digit natural numbers which are divisible by 13.
+
+26
+00:02:06,199 --> 00:02:16,899
+The smallest 3-digit multiple of 13: 13 × 7 = 91 has only two digits, 13 × 8 = 104 has three
+
+27
+00:02:16,899 --> 00:02:20,533
+The smallest 3-digit multiple of 13: 13 × 7 = 91 has only two digits, 13 × 8 = 104 has three
+
+28
+00:02:20,533 --> 00:02:31,866
+The biggest 3-digit multiple of 13: 13 × 76 = 988 and 13 × 77 = 1001 has four digits
+
+29
+00:02:31,866 --> 00:02:35,133
+The biggest 3-digit multiple of 13: 13 × 76 = 988 and 13 × 77 = 1001 has four digits
+
+30
+00:02:35,133 --> 00:02:36,733
+Find the number of terms
+
+31
+00:02:36,733 --> 00:02:42,733
+Find the number of terms
+
+32
+00:02:42,733 --> 00:02:48,166
+Find the number of terms
+
+33
+00:02:48,166 --> 00:02:52,033
+Find the number of terms
+
+34
+00:02:52,033 --> 00:02:57,099
+Find the number of terms
+
+35
+00:02:57,099 --> 00:02:58,733
+Find the number of terms
+
+36
+00:02:58,733 --> 00:03:01,066
+Use the second sum formula
+
+37
+00:03:01,066 --> 00:03:06,966
+Use the second sum formula
+
+38
+00:03:06,966 --> 00:03:10,833
+Use the second sum formula
+
+39
+00:03:10,833 --> 00:03:19,266
+1092 divided by 2 is 546, then multiply 69 by 546
+
+40
+00:03:19,266 --> 00:03:22,366
+1092 divided by 2 is 546, then multiply 69 by 546
+
+41
+00:03:22,366 --> 00:03:27,499
+1092 divided by 2 is 546, then multiply 69 by 546
+
+42
+00:03:27,499 --> 00:03:32,399
+1092 divided by 2 is 546, then multiply 69 by 546
+
+43
+00:03:32,399 --> 00:03:35,899
+1092 divided by 2 is 546, then multiply 69 by 546
+
+44
+00:03:35,899 --> 00:03:40,933
+Answer: Sum = 37674
+
+45
+00:03:40,933 --> 00:03:43,133
+Let's check our answer
+
+46
+00:03:43,133 --> 00:03:48,066
+Quick check: 13 × (8 + 9 + … + 76)
+
+47
+00:03:48,066 --> 00:03:55,199
+Quick check: 13 × (8 + 9 + … + 76)
+
+48
+00:03:55,499 --> 00:04:02,866
+Find the sum of all multiples of 9 lying between 300 and 700.
+
+49
+00:04:02,866 --> 00:04:15,133
+Multiples of 9 just above 300: 9 × 33 = 297 is below 300, 9 × 34 = 306 is above
+
+50
+00:04:15,133 --> 00:04:18,966
+Multiples of 9 just above 300: 9 × 33 = 297 is below 300, 9 × 34 = 306 is above
+
+51
+00:04:18,966 --> 00:04:31,666
+Multiples of 9 just below 700: 9 × 77 = 693 is below 700, 9 × 78 = 702 is above
+
+52
+00:04:31,666 --> 00:04:34,999
+Multiples of 9 just below 700: 9 × 77 = 693 is below 700, 9 × 78 = 702 is above
+
+53
+00:04:34,999 --> 00:04:36,599
+Find the number of terms
+
+54
+00:04:36,599 --> 00:04:42,633
+Find the number of terms
+
+55
+00:04:42,633 --> 00:04:48,266
+Find the number of terms
+
+56
+00:04:48,266 --> 00:04:52,200
+Find the number of terms
+
+57
+00:04:52,200 --> 00:04:57,166
+Find the number of terms
+
+58
+00:04:57,166 --> 00:04:58,833
+Find the number of terms
+
+59
+00:04:58,833 --> 00:05:01,166
+Use the second sum formula
+
+60
+00:05:01,166 --> 00:05:07,033
+Use the second sum formula
+
+61
+00:05:07,033 --> 00:05:10,100
+Use the second sum formula
+
+62
+00:05:10,100 --> 00:05:15,733
+22 times 999 is 22 times 1000 minus 22
+
+63
+00:05:15,733 --> 00:05:18,733
+22 times 999 is 22 times 1000 minus 22
+
+64
+00:05:18,733 --> 00:05:22,033
+22 times 999 is 22 times 1000 minus 22
+
+65
+00:05:22,033 --> 00:05:26,866
+Answer: Sum = 21978
+
+66
+00:05:26,866 --> 00:05:29,066
+Let's check our answer
+
+67
+00:05:29,066 --> 00:05:34,533
+Quick check: 9 × (34 + 35 + … + 77)
+
+68
+00:05:34,533 --> 00:05:41,433
+Quick check: 9 × (34 + 35 + … + 77)
+
+69
+00:05:41,733 --> 00:05:48,933
+Find the sum of the first hundred even natural numbers which are divisible by 5.
+
+70
+00:05:48,933 --> 00:05:52,766
+Even numbers divisible by 5 are the multiples of 10
+
+71
+00:05:52,766 --> 00:05:55,266
+Even numbers divisible by 5 are the multiples of 10
+
+72
+00:05:55,266 --> 00:06:00,600
+So the first term is 10, the common difference is 10, and we need 100 terms
+
+73
+00:06:00,600 --> 00:06:06,366
+So the first term is 10, the common difference is 10, and we need 100 terms
+
+74
+00:06:06,366 --> 00:06:08,066
+Use the sum formula
+
+75
+00:06:08,066 --> 00:06:14,966
+Use the sum formula
+
+76
+00:06:14,966 --> 00:06:16,700
+Work inside the bracket
+
+77
+00:06:16,700 --> 00:06:19,700
+Work inside the bracket
+
+78
+00:06:19,700 --> 00:06:22,166
+Work inside the bracket
+
+79
+00:06:22,166 --> 00:06:23,433
+Multiply
+
+80
+00:06:23,433 --> 00:06:25,766
+Multiply
+
+81
+00:06:25,766 --> 00:06:29,733
+Answer: Sum = 50500
+
+82
+00:06:29,733 --> 00:06:31,933
+Let's check our answer
+
+83
+00:06:31,933 --> 00:06:35,033
+Quick check: the 100th term is 1000
+
+84
+00:06:35,033 --> 00:06:44,600
+Quick check: the 100th term is 1000
+
+85
+00:06:44,900 --> 00:06:51,666
+Find the sum of all 3-digit natural numbers which are divisible by 11.
+
+86
+00:06:51,666 --> 00:07:01,900
+Smallest 3-digit multiple of 11: 11 × 9 = 99 has two digits, 11 × 10 = 110 has three
+
+87
+00:07:01,900 --> 00:07:05,533
+Smallest 3-digit multiple of 11: 11 × 9 = 99 has two digits, 11 × 10 = 110 has three
+
+88
+00:07:05,533 --> 00:07:16,600
+Largest 3-digit multiple of 11: 11 × 90 = 990 and 11 × 91 = 1001 has four digits
+
+89
+00:07:16,600 --> 00:07:19,933
+Largest 3-digit multiple of 11: 11 × 90 = 990 and 11 × 91 = 1001 has four digits
+
+90
+00:07:19,933 --> 00:07:21,533
+Find the number of terms
+
+91
+00:07:21,533 --> 00:07:27,000
+Find the number of terms
+
+92
+00:07:27,000 --> 00:07:32,266
+Find the number of terms
+
+93
+00:07:32,266 --> 00:07:35,800
+Find the number of terms
+
+94
+00:07:35,800 --> 00:07:40,200
+Find the number of terms
+
+95
+00:07:40,200 --> 00:07:41,833
+Find the number of terms
+
+96
+00:07:41,833 --> 00:07:44,166
+Use the second sum formula
+
+97
+00:07:44,166 --> 00:07:49,666
+Use the second sum formula
+
+98
+00:07:49,666 --> 00:07:53,600
+Use the second sum formula
+
+99
+00:07:53,600 --> 00:07:56,366
+Use the second sum formula
+
+100
+00:07:56,366 --> 00:07:59,500
+Multiply 81 by 550
+
+101
+00:07:59,500 --> 00:08:03,833
+Multiply 81 by 550
+
+102
+00:08:03,833 --> 00:08:07,766
+Multiply 81 by 550
+
+103
+00:08:07,766 --> 00:08:10,766
+Multiply 81 by 550
+
+104
+00:08:10,766 --> 00:08:15,433
+Answer: Sum = 44550
+
+105
+00:08:15,433 --> 00:08:17,633
+Let's check our answer
+
+106
+00:08:17,633 --> 00:08:22,400
+Quick check: 11 × (10 + 11 + … + 90)
+
+107
+00:08:22,400 --> 00:08:28,366
+Quick check: 11 × (10 + 11 + … + 90)
