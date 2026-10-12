@@ -1,0 +1,115 @@
+1
+00:00:01,500 --> 00:00:10,266
+Can you add this AP without adding every term? Stay till the end!
+
+2
+00:00:10,266 --> 00:00:13,333
+Know first: the formulas we need
+
+3
+00:00:13,333 --> 00:00:21,233
+Sum of n terms, when we know the last term l
+
+4
+00:00:21,233 --> 00:00:33,466
+The n th term is a plus n minus 1 times d
+
+5
+00:00:33,466 --> 00:00:43,033
+In an AP the first term is 8, the nth term is 33 and the sum to n terms is 123. Find n and d.
+
+6
+00:00:43,033 --> 00:00:44,566
+Write down what we know
+
+7
+00:00:44,566 --> 00:00:52,566
+Write down what we know
+
+8
+00:00:52,566 --> 00:00:54,599
+Use the second sum formula
+
+9
+00:00:54,599 --> 00:00:59,133
+Use the second sum formula
+
+10
+00:00:59,133 --> 00:01:03,366
+Use the second sum formula
+
+11
+00:01:03,366 --> 00:01:05,066
+Add inside the bracket
+
+12
+00:01:05,066 --> 00:01:08,933
+Add inside the bracket
+
+13
+00:01:08,933 --> 00:01:10,966
+Multiply both sides by 2
+
+14
+00:01:10,966 --> 00:01:13,833
+Multiply both sides by 2
+
+15
+00:01:13,833 --> 00:01:16,433
+Divide both sides by 41
+
+16
+00:01:16,433 --> 00:01:20,599
+Divide both sides by 41
+
+17
+00:01:20,599 --> 00:01:23,899
+Now find d using the nth term formula
+
+18
+00:01:23,899 --> 00:01:29,133
+Now find d using the nth term formula
+
+19
+00:01:29,133 --> 00:01:32,499
+Now find d using the nth term formula
+
+20
+00:01:32,499 --> 00:01:34,999
+Now find d using the nth term formula
+
+21
+00:01:34,999 --> 00:01:36,966
+Subtract 8 from both sides
+
+22
+00:01:36,966 --> 00:01:39,566
+Subtract 8 from both sides
+
+23
+00:01:39,566 --> 00:01:41,599
+Subtract 8 from both sides
+
+24
+00:01:41,599 --> 00:01:43,066
+Divide by 5
+
+25
+00:01:43,066 --> 00:01:44,633
+Divide by 5
+
+26
+00:01:44,633 --> 00:01:48,266
+Answer: n = 6,   d = 5
+
+27
+00:01:48,266 --> 00:01:50,466
+Let's check our answer
+
+28
+00:01:50,466 --> 00:01:55,733
+Quick check: the terms are 8, 13, 18, 23, 28, 33
+
+29
+00:01:55,733 --> 00:02:03,399
+Quick check: the terms are 8, 13, 18, 23, 28, 33
