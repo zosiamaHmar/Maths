@@ -1,3 +1,15 @@
 # Agent skills installed via `npx skills add`; restore with `npx skills experimental_install`
-.claude/skills/
+.claude/skills/*
 .agents/
+
+# Committed: cloudai-x/threejs-skills
+!.claude/skills/threejs-animation/
+!.claude/skills/threejs-fundamentals/
+!.claude/skills/threejs-geometry/
+!.claude/skills/threejs-interaction/
+!.claude/skills/threejs-lighting/
+!.claude/skills/threejs-loaders/
+!.claude/skills/threejs-materials/
+!.claude/skills/threejs-postprocessing/
+!.claude/skills/threejs-shaders/
+!.claude/skills/threejs-textures/
