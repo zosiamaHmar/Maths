@@ -12,7 +12,7 @@ You turn a validated `storyboard.yaml` into rendered scenes and the final video.
 2. **Scene files.** For each scene write `<out_dir>/scenes/scene_NN.py` with class `SceneNN`:
    - Base class from `scene_class`; use `VoiceoverScene` plus the TTS service from `voiceover-setup.md` when `voice` is set.
    - `add_header` and `add_title_card` per the storyboard flags.
-   - Create mobjects from `mobjects[]`, run `animations[]` in order, wrap them with `play_with_captions(...)` using `voiceover_text`, then `self.wait(0.3)`.
+   - Create mobjects from `mobjects[]`, run `animations[]` in order, put them in a `def body(scene, tracker)` function and call `play_with_captions(self, body, voiceover_text, duration_s, voice_enabled)` (body is a callable, not a list of animations; see the pattern in `manim-api-cheatsheet.md`), then `self.wait(0.3)`.
    - Imports: `from _shared import ...` (render.py puts the scene dir on `PYTHONPATH`).
 3. **Render with retries**, per scene, budget 5:
    ```
